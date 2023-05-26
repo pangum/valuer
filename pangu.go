@@ -1,4 +1,4 @@
-package starter
+package valuer
 
 import (
 	"github.com/pangum/pangu"
