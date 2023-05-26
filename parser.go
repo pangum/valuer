@@ -1,18 +1,18 @@
 package valuer
 
 import (
-	"github.com/go-resty/resty/v2"
-	"github.com/goexl/simaqian"
 	"github.com/goexl/valuer"
+	"github.com/pangum/http"
+	"github.com/pangum/logging"
 )
 
 // Parser 解析器
 type Parser = valuer.Parser
 
-func newParser(http *resty.Client, logger simaqian.Logger) (parser *Parser) {
+func newParser(http *http.Client, logger logging.Logger) (parser *Parser) {
 	builder := valuer.New()
 	builder.Logger(logger)
-	builder.Http(http)
+	builder.Http(http.Client)
 	parser = builder.Build()
 
 	return
