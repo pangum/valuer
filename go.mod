@@ -1,10 +1,10 @@
 module github.com/pangum/valuer
 
-go 1.21
+go 1.24
 
 require (
 	github.com/goexl/http v0.0.6
-	github.com/goexl/log v0.0.5
+	github.com/goexl/log v0.1.0
 	github.com/goexl/valuer v0.0.3
 	github.com/pangum/pangu v0.4.1
 )
@@ -23,7 +23,7 @@ require (
 	github.com/goexl/env v0.0.2 // indirect
 	github.com/goexl/exc v0.0.5 // indirect
 	github.com/goexl/gfx v0.1.7 // indirect
-	github.com/goexl/gox v0.3.8 // indirect
+	github.com/goexl/gox v1.9.2 // indirect
 	github.com/goexl/mengpo v0.2.4 // indirect
 	github.com/goexl/xiren v0.0.5 // indirect
 	github.com/google/uuid v1.3.1 // indirect
